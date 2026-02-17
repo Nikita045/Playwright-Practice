@@ -1,0 +1,5 @@
+[
+  {"username1": "Namjoon","password1": "pwd","expected": "Welcome, Namjoon!"},
+  {"username1": "Jin","password1": "pwd","expected": "Welcome, Jin!"},
+  {"username1": "Jhope","password1": "wrongpwd","expected": "Invalid username/password"}
+]
