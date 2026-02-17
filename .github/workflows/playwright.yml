@@ -35,8 +35,7 @@ jobs:
       # Step 5: Run Smoke Tests
       - name: Run Smoke Tests
         run: |
-          pytest -m smoke --browser chromium
-          --html=report.html --self-contained-html
+          pytest -m smoke --browser chromium --html=report.html --self-contained-html
 
       # Step 6: Upload HTML Report
       - name: Upload HTML Report
