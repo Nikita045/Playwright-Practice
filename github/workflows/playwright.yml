@@ -1,4 +1,4 @@
-name: Playwright Pytest CI
+name: Playwright smoke test CI
 
 on:
   push:
